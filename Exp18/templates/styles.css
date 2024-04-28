@@ -1,0 +1,55 @@
+/* styles.css */
+
+/* Resetting default margin and padding */
+body, h1, form {
+    margin: 0;
+    padding: 0;
+}
+
+/* Applying styles to the header */
+h1 {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #333;
+    color: #fff;
+}
+
+/* Styling the form */
+form {
+    width: 300px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+/* Styling form labels */
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+/* Styling form inputs */
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Styling the submit button */
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+}
+
+/* Styling the submit button on hover */
+input[type="submit"]:hover {
+    background-color: #555;
+}

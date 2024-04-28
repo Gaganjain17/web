@@ -1,0 +1,52 @@
+/* styles.css */
+
+/* Resetting default margin and padding */
+body, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Applying styles to the header */
+h1 {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #333;
+    color: #fff;
+}
+
+/* Styling the list of posts */
+ul {
+    list-style-type: none;
+    margin: 20px;
+}
+
+/* Styling each post item */
+li {
+    margin-bottom: 10px;
+}
+
+/* Styling the links for each post */
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Styling the "Create New Post" button */
+button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
